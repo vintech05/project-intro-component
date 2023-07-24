@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+  <script defer src="index.js"></script>
+
+  <title>Project tracking intro component</title>
+</head>
+<body class="flex justify-center items-center min-h-screen mx-6 my-4 md:mx-36 overflow-x-hidden">
+  <main>
+    <div class="container">
+      <header>
+        <nav class="uppercase font-Headings font-semibold relative md:py-10">
+          <div class="nav-identity flex flex-row justify-between items-center cursor-pointer">
+            <img class="md:-mt-52 md:w-8 md:h-8" src="./images/logo.svg" alt="logo">
+            <img class="hamburger cursor-pointer z-20 md:opacity-0" src="./images/icon-hamburger.svg" alt="hamburger">
+            <img class="close cursor-pointer absolute hidden z-20 top-0 right-0 md:opacity-0" src="./images/icon-close.svg" alt="hamburger">
+          </div>
+          <ul class="nav-item bg-white bg-none shadow-2xl py-4 w-full hidden z-20 absolute px-24 tracking-wider justify-center 
+          text-center flex-col gap-3 my-8 md:bg-transparent md:shadow-none md:flex-row md:gap-10 md:right-0 md:justify-end md:-mt-32
+          md:-mr-28 md:!flex">
+          <li><a class="text-blue-950" href="#">Product</a></li>
+            <li><a class="text-blue-950" href="#">Features</a></li>
+            <li><a class="text-blue-950 border-b-2 py-2 md:border-b-0" href="#">Pricing</a></li>
+            <li><a class="text-slate-600/60 py-8 my-2 md:px-8 md:-mr-20" href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+      </header>
+      <div class="hero md:flex md:flex-row-reverse">
+        <div class="bg-slate-200/50 w-96 h-96 absolute scale-125 mx-64 -mt-16 rounded-b-3xl md:scale-150
+         -z-10 top-0 md:-mr-20 md:-mt-24 sm-mr-12"></div>
+        <div class="hero-img">
+          <img class="py-16 mx-32 xs:scale-125 scale-125 md:ml-56 md:scale-150" src="./images/illustration-devices.svg" alt="illustration-devices">
+        </div>
+        <div class="hero-info md:z-30 md:w-full">
+          <div class="headline uppercase flex flex-row items-center py-4">
+            <span class="bg-blue-950 font-Headings text-white font-semibold text-sm px-3 rounded-full">New</span>
+            <p class="text-slate-500/70 font-Headings px-4 text-sm font-medium tracking-widest">Monograph Dashboard</p>
+          </div>
+          <div class="sub-headline">
+          <h1 class="uppercase text-blue-950 font-Headings font-semibold text-4xl tracking-2 md:text-5xl">Powerful insights <br> into your team</h1>
+          <p class="font-body text-slate-700/80 py-4 md:py-8">Project planning and time tracking <br> for agile teams</p>
+        </div>
+        <div class="option uppercase flex flex-row items-center py-2 md:py-4">
+          <button class="bg-red-600 text-white py-2 px-4 hover:bg-red-400 text-sm transition-all
+           rounded-md font-Headings uppercase font-semibold md:px-6 ">Schedule a demo</button>
+          <p class="text-slate-500/70 font-Headings px-6 tracking-3">to see a live preview</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+</html>
