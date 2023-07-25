@@ -17,8 +17,8 @@ module.exports = {
         4: "1em",
       },
 
-      screen: {
-        ip: "810px",
+      screens: {
+        ipad: "810px",
       },
     },
   },
